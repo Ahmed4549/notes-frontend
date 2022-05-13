@@ -1,0 +1,13 @@
+.guestMain {
+  display: grid;
+  grid-template-columns: "10fr 80fr 10fr";
+  grid-template-areas: ". main .";
+  height: 100vh;
+}
+.guestInner {
+  grid-area: main;
+  padding: 5rem 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
